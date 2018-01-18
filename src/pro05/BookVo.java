@@ -67,5 +67,4 @@ public class BookVo {
 		}
 		return "책 제목:"+title+", 작가:"+author_name+", 대여 유무:"+state;
 	}
-
 }

@@ -1,5 +1,6 @@
 package pro05;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class BookShopApp {
@@ -10,43 +11,43 @@ public class BookShopApp {
 		BookVo vo = new BookVo();
 		
 		vo.setTitle( "트와일라잇" );
-		vo.setAuthorName( "스테파니메이어" );
+		vo.setAuthor_name( "스테파니메이어" );
 		dao.insert( vo );
 
 		vo.setTitle( "뉴문" );
-		vo.setAuthorName( "스테파니메이어" );
+		vo.setAuthor_name( "스테파니메이어" );
 		dao.insert( vo );
 
 		vo.setTitle( "이클립스" );
-		vo.setAuthorName( "스테파니메이어" );
+		vo.setAuthor_name( "스테파니메이어" );
 		dao.insert( vo );
 		
 		vo.setTitle( "브레이킹던" );
-		vo.setAuthorName( "스테파니메이어" );
+		vo.setAuthor_name( "스테파니메이어" );
 		dao.insert( vo );
 
 		vo.setTitle( "아리랑" );
-		vo.setAuthorName( "조정래" );
+		vo.setAuthor_name( "조정래" );
 		dao.insert( vo );
 
 		vo.setTitle( "젊은그들" );
-		vo.setAuthorName( "김동인" );
+		vo.setAuthor_name( "김동인" );
 		dao.insert( vo );
 
 		vo.setTitle( "아프니까 청춘이다" );
-		vo.setAuthorName( "김난도" );
+		vo.setAuthor_name( "김난도" );
 		dao.insert( vo );
 
 		vo.setTitle( "귀천" );
-		vo.setAuthorName( "천상병" );
+		vo.setAuthor_name( "천상병" );
 		dao.insert( vo );
 
 		vo.setTitle( "태백산맥" );
-		vo.setAuthorName( "조정래" );
+		vo.setAuthor_name( "조정래" );
 		dao.insert( vo );
 
 		vo.setTitle( "풀하우스" );
-		vo.setAuthorName( "원수연" );
+		vo.setAuthor_name( "원수연" );
 		dao.insert( vo );
 		
 		Scanner key = new Scanner(System.in);
