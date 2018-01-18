@@ -2,25 +2,22 @@ package pro04;
 
 public class MemberVo {
 	
-	//MemberVo ÀÛ¼º
+	//MemberVo ìž‘ì„±
 	private int id;
 	private String name;
 	private String email;
 	private String password;
 	private String gender;
 
-	
 	public MemberVo() {
 	}
-
 	public MemberVo(int id, String name, String email, String password, String gender) {
 		this.id = id;
 		this.name = name;
 		this.email = email;
 		this.password = password;
 		this.gender = gender;
-	}
-	
+	}	
 	public int getId() {
 		return id;
 	}
@@ -51,13 +48,9 @@ public class MemberVo {
 	public void setGender(String gender) {
 		this.gender = gender;
 	}
-
 	@Override
 	public String toString() {
 		return "MemberVo [id=" + id + ", name=" + name + ", email=" + email + ", password=" + password + ", gender="
 				+ gender + "]";
 	}
-
 }
-	
-	
